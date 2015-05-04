@@ -1,5 +1,5 @@
 name:                stackage-cabal
-version:             0.0.0
+version:             0.1.0
 synopsis:
   A CLI executable for cabal-based stackage commands
 description:
