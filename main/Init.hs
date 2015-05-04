@@ -24,7 +24,7 @@ import System.Exit (exitFailure)
 import System.Environment (getArgs)
 import System.IO (hPutStrLn, stderr)
 import Control.Exception
-import qualified Paths_stackage_cli as CabalInfo
+import qualified Paths_stackage_cabal as CabalInfo
 
 type Snapshot = String
 

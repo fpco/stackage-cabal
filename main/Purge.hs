@@ -22,7 +22,7 @@ import qualified Data.Text.Encoding as T
 import qualified Data.Text as T
 import System.Environment (getArgs)
 import System.Exit (exitFailure)
-import qualified Paths_stackage_cli as CabalInfo
+import qualified Paths_stackage_cabal as CabalInfo
 
 import Text.Parsec hiding ((<|>), many)
 type ParsecParser = Parsec String ()

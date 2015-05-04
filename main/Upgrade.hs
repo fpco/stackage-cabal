@@ -12,7 +12,7 @@ import Data.Text (unpack)
 import Options.Applicative (long, short, help, metavar, value, switch, Parser, strArgument)
 import System.IO (hPutStrLn, stderr)
 import System.Exit (exitFailure, exitWith, ExitCode (..))
-import qualified Paths_stackage_cli as CabalInfo
+import qualified Paths_stackage_cabal as CabalInfo
 
 data Opts = Opts
   { purgeArgs :: [String]
