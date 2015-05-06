@@ -1,5 +1,5 @@
 name:                stackage-cabal
-version:             0.1.0
+version:             0.1.1
 synopsis:
   A CLI executable for cabal-based stackage commands
 description:
@@ -23,6 +23,18 @@ extra-source-files:  README.md ChangeLog.md
 source-repository head
   type:     git
   location: git://github.com/fpco/stackage-cabal.git
+
+
+library
+  hs-source-dirs:      src
+  exposed-modules:
+      Stackage.CLI.Init
+    , Stackage.CLI.Purge
+    , Stackage.CLI.Upgrade
+  build-depends:
+      base >=4.7 && <5
+  default-language:    Haskell2010
+
 
 executable stackage-init
   hs-source-dirs:      main
